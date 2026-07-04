@@ -1,18 +1,18 @@
-package com.example.exampleaddon.data.advancements.packs;
+package net.wahajplayz.exampleaddon.data.advancements.packs;
 
-import com.example.exampleaddon.ExampleAddon;
-import com.example.exampleaddon.world.item.ExampleItems;
 import dev.thomasglasser.tommylib.api.data.advancements.ExtendedAdvancementGenerator;
 import java.util.function.BiConsumer;
 import net.minecraft.advancements.AdvancementHolder;
 import net.minecraft.advancements.critereon.InventoryChangeTrigger;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.resources.ResourceLocation;
+import net.wahajplayz.MiracleMondeKwamiCreate.MiracleMondeKwamiCreate;
+import net.wahajplayz.MiracleMondeKwamiCreate.world.item.ExampleItems;
 
 /// Defines the actual advancement tree and triggers for this addon.
 public class ExampleAdvancements extends ExtendedAdvancementGenerator {
     public ExampleAdvancements(BiConsumer<String, String> lang) {
-        super(ExampleAddon.MOD_ID, "main", lang);
+        super(MiracleMondeKwamiCreate.MOD_ID, "main", lang);
     }
 
     @Override

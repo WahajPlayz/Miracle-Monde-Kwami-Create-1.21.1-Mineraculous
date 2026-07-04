@@ -1,14 +1,14 @@
-package com.example.exampleaddon.data.look;
+package net.wahajplayz.MiracleMondeKwamiCreate.data.look;
 
-import com.example.exampleaddon.ExampleAddon;
-import com.example.exampleaddon.world.item.ExampleItems;
-import com.example.exampleaddon.world.kamikotization.ExampleKamikotizations;
-import com.example.exampleaddon.world.miraculous.ExampleMiraculouses;
 import dev.thomasglasser.mineraculous.api.core.registries.MineraculousRegistries;
 import dev.thomasglasser.mineraculous.impl.data.looks.MineraculousLookProvider;
 import java.util.concurrent.CompletableFuture;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
+import net.wahajplayz.MiracleMondeKwamiCreate.MiracleMondeKwamiCreate;
+import net.wahajplayz.MiracleMondeKwamiCreate.world.item.ExampleItems;
+import net.wahajplayz.MiracleMondeKwamiCreate.world.kamikotization.ExampleKamikotizations;
+import net.wahajplayz.MiracleMondeKwamiCreate.world.miraculous.ExampleMiraculouses;
 
 /**
  * Data generation provider for Miraculous and Kamikotization visual looks.
@@ -18,7 +18,7 @@ import net.minecraft.data.PackOutput;
  */
 public class ExampleLookProvider extends MineraculousLookProvider {
     public ExampleLookProvider(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider) {
-        super(output, ExampleAddon.MOD_ID, lookupProvider);
+        super(output, MiracleMondeKwamiCreate.MOD_ID, lookupProvider);
     }
 
     @Override

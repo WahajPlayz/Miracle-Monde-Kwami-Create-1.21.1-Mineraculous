@@ -1,8 +1,5 @@
-package com.example.exampleaddon;
+package net.wahajplayz.MiracleMondeKwamiCreate;
 
-import com.example.exampleaddon.data.ExampleDataGenerators;
-import com.example.exampleaddon.world.item.ExampleCreativeModeTabs;
-import com.example.exampleaddon.world.item.ExampleItems;
 import dev.thomasglasser.tommylib.api.platform.TommyLibServices;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -13,6 +10,9 @@ import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
+import net.wahajplayz.MiracleMondeKwamiCreate.data.ExampleDataGenerators;
+import net.wahajplayz.MiracleMondeKwamiCreate.world.item.ExampleCreativeModeTabs;
+import net.wahajplayz.MiracleMondeKwamiCreate.world.item.ExampleItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -22,10 +22,10 @@ import org.slf4j.LoggerFactory;
  * <p>The value provided to the {@link Mod} annotation must match the {@code modId} specified
  * in your {@code resources/META-INF/neoforge.mods.toml} file.
  */
-@Mod(ExampleAddon.MOD_ID)
-public class ExampleAddon {
-    public static final String MOD_ID = "exampleaddon";
-    public static final String MOD_NAME = "Example Addon";
+@Mod(MiracleMondeKwamiCreate.MOD_ID)
+public class MiracleMondeKwamiCreate {
+    public static final String MOD_ID = "miracle_monde_kwami_create";
+    public static final String MOD_NAME = "Miracle Monde: Kwami Create";
     private static final Logger LOGGER = LoggerFactory.getLogger(MOD_NAME);
 
     /**
@@ -34,7 +34,7 @@ public class ExampleAddon {
      * @param modEventBus  The event bus for mod lifecycle events (registration, setup, data gen).
      * @param modContainer Metadata container for this mod.
      */
-    public ExampleAddon(IEventBus modEventBus, ModContainer modContainer) {
+    public MiracleMondeKwamiCreate(IEventBus modEventBus, ModContainer modContainer) {
         LOGGER.info(
                 "Initializing {} for {} in a {} environment...",
                 MOD_NAME,

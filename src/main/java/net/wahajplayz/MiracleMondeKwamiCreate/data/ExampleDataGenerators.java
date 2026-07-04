@@ -1,16 +1,16 @@
-package com.example.exampleaddon.data;
+package net.wahajplayz.MiracleMondeKwamiCreate.data;
 
-import com.example.exampleaddon.ExampleAddon;
-import com.example.exampleaddon.data.advancements.ExampleAdvancementProvider;
-import com.example.exampleaddon.data.lang.ExampleEnUsLanguageProvider;
-import com.example.exampleaddon.data.look.ExampleLookProvider;
-import com.example.exampleaddon.data.models.ExampleItemModelProvider;
-import com.example.exampleaddon.world.kamikotization.ExampleKamikotizations;
-import com.example.exampleaddon.world.miraculous.ExampleMiraculouses;
 import dev.thomasglasser.mineraculous.api.core.registries.MineraculousRegistries;
 import dev.thomasglasser.tommylib.api.data.DataGenerationUtils;
 import net.minecraft.core.RegistrySetBuilder;
 import net.neoforged.neoforge.data.event.GatherDataEvent;
+import net.wahajplayz.MiracleMondeKwamiCreate.MiracleMondeKwamiCreate;
+import net.wahajplayz.MiracleMondeKwamiCreate.data.advancements.ExampleAdvancementProvider;
+import net.wahajplayz.MiracleMondeKwamiCreate.data.lang.ExampleEnUsLanguageProvider;
+import net.wahajplayz.MiracleMondeKwamiCreate.data.look.ExampleLookProvider;
+import net.wahajplayz.MiracleMondeKwamiCreate.data.models.ExampleItemModelProvider;
+import net.wahajplayz.MiracleMondeKwamiCreate.world.kamikotization.ExampleKamikotizations;
+import net.wahajplayz.MiracleMondeKwamiCreate.world.miraculous.ExampleMiraculouses;
 
 /**
  * Handles data generation for this addon when running the 'Data Generation' run config.
@@ -37,7 +37,7 @@ public class ExampleDataGenerators {
         event.createDatapackRegistryObjects(BUILDER);
 
         // 2. Generate a helpful registry dump report for debugging
-        DataGenerationUtils.createRegistryDumpReport(event, ExampleAddon.MOD_ID);
+        DataGenerationUtils.createRegistryDumpReport(event, MiracleMondeKwamiCreate.MOD_ID);
 
         // 3. Register common providers (language and dependent providers like advancements)
         DataGenerationUtils.createLangDependent(event, ExampleEnUsLanguageProvider::new, ExampleAdvancementProvider::new);

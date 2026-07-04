@@ -1,10 +1,10 @@
-package com.example.exampleaddon.data.models;
+package net.wahajplayz.MiracleMondeKwamiCreate.data.models;
 
-import com.example.exampleaddon.ExampleAddon;
-import com.example.exampleaddon.world.item.ExampleItems;
 import dev.thomasglasser.tommylib.api.data.models.ExtendedItemModelProvider;
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
+import net.wahajplayz.MiracleMondeKwamiCreate.MiracleMondeKwamiCreate;
+import net.wahajplayz.MiracleMondeKwamiCreate.world.item.ExampleItems;
 
 /**
  * Generates item model JSON files (in {@code src/generated/resources/models/item/}) for this addon.
@@ -14,7 +14,7 @@ import net.neoforged.neoforge.common.data.ExistingFileHelper;
  */
 public class ExampleItemModelProvider extends ExtendedItemModelProvider {
     public ExampleItemModelProvider(PackOutput output, ExistingFileHelper existingFileHelper) {
-        super(output, ExampleAddon.MOD_ID, existingFileHelper);
+        super(output, MiracleMondeKwamiCreate.MOD_ID, existingFileHelper);
     }
 
     @Override

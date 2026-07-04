@@ -1,10 +1,10 @@
-package com.example.exampleaddon.world.item;
+package net.wahajplayz.MiracleMondeKwamiCreate.world.item;
 
-import com.example.exampleaddon.ExampleAddon;
 import dev.thomasglasser.tommylib.api.registration.DeferredItem;
 import dev.thomasglasser.tommylib.api.registration.DeferredRegister;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
+import net.wahajplayz.MiracleMondeKwamiCreate.MiracleMondeKwamiCreate;
 
 /**
  * Holds all registered {@link Item}s for this addon.
@@ -16,7 +16,7 @@ public class ExampleItems {
      * The item register for our mod namespace.
      * When initialized, it automatically registers with the platform's underlying registration system.
      */
-    private static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(ExampleAddon.MOD_ID);
+    private static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(MiracleMondeKwamiCreate.MOD_ID);
 
     /**
      * An example item (e.g., a custom Miraculous jewel or tool).
@@ -31,7 +31,7 @@ public class ExampleItems {
                     .rarity(Rarity.RARE)));
 
     /**
-     * Called from {@link ExampleAddon}'s constructor to force class initialization and ensure
+     * Called from {@link MiracleMondeKwamiCreate}'s constructor to force class initialization and ensure
      * our register is created early.
      */
     public static void init() {}

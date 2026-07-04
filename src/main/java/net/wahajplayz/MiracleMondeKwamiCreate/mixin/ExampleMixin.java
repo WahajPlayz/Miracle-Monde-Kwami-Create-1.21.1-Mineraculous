@@ -1,7 +1,7 @@
-package com.example.exampleaddon.mixin;
+package net.wahajplayz.MiracleMondeKwamiCreate.mixin;
 
-import com.example.exampleaddon.ExampleAddon;
 import net.minecraft.server.MinecraftServer;
+import net.wahajplayz.MiracleMondeKwamiCreate.MiracleMondeKwamiCreate;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.spongepowered.asm.mixin.Mixin;
@@ -17,7 +17,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
  */
 @Mixin(MinecraftServer.class)
 public class ExampleMixin {
-    private static final Logger LOGGER = LoggerFactory.getLogger(ExampleAddon.MOD_NAME + " Mixin");
+    private static final Logger LOGGER = LoggerFactory.getLogger(MiracleMondeKwamiCreate.MOD_NAME + " Mixin");
 
     /**
      * Injects custom code at the HEAD (start) of {@link MinecraftServer#loadLevel()}.

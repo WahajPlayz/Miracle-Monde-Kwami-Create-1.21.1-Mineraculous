@@ -1,13 +1,13 @@
-package com.example.exampleaddon.data.lang;
+package net.wahajplayz.MiracleMondeKwamiCreate.data.lang;
 
-import com.example.exampleaddon.ExampleAddon;
-import com.example.exampleaddon.world.item.ExampleCreativeModeTabs;
-import com.example.exampleaddon.world.item.ExampleItems;
-import com.example.exampleaddon.world.kamikotization.ExampleKamikotizations;
-import com.example.exampleaddon.world.miraculous.ExampleMiraculouses;
 import dev.thomasglasser.mineraculous.api.world.kamikotization.condition.ItemCondition;
 import dev.thomasglasser.mineraculous.impl.data.lang.MineraculousEnUsLanguageProvider;
 import net.minecraft.data.PackOutput;
+import net.wahajplayz.MiracleMondeKwamiCreate.MiracleMondeKwamiCreate;
+import net.wahajplayz.MiracleMondeKwamiCreate.world.item.ExampleCreativeModeTabs;
+import net.wahajplayz.MiracleMondeKwamiCreate.world.item.ExampleItems;
+import net.wahajplayz.MiracleMondeKwamiCreate.world.kamikotization.ExampleKamikotizations;
+import net.wahajplayz.MiracleMondeKwamiCreate.world.miraculous.ExampleMiraculouses;
 
 /**
  * Generates English (en_us) language translations for items, tabs, and datapack objects.
@@ -17,7 +17,7 @@ import net.minecraft.data.PackOutput;
  */
 public class ExampleEnUsLanguageProvider extends MineraculousEnUsLanguageProvider {
     public ExampleEnUsLanguageProvider(PackOutput output) {
-        super(output, ExampleAddon.MOD_ID);
+        super(output, MiracleMondeKwamiCreate.MOD_ID);
     }
 
     @Override

@@ -1,7 +1,5 @@
-package com.example.exampleaddon.world.miraculous;
+package net.wahajplayz.MiracleMondeKwamiCreate.world.miraculous;
 
-import com.example.exampleaddon.ExampleAddon;
-import com.example.exampleaddon.world.item.ExampleItems;
 import com.google.common.collect.ImmutableList;
 import dev.thomasglasser.mineraculous.api.core.customization.setting.CustomizationSettingKeys;
 import dev.thomasglasser.mineraculous.api.core.customization.setting.CustomizationSettings;
@@ -14,6 +12,8 @@ import java.util.Optional;
 import net.minecraft.data.worldgen.BootstrapContext;
 import net.minecraft.network.chat.TextColor;
 import net.minecraft.resources.ResourceKey;
+import net.wahajplayz.MiracleMondeKwamiCreate.MiracleMondeKwamiCreate;
+import net.wahajplayz.MiracleMondeKwamiCreate.world.item.ExampleItems;
 
 /**
  * Demonstrates how to define and register a custom {@link Miraculous} via data generation.
@@ -27,7 +27,7 @@ public class ExampleMiraculouses {
     public static final ResourceKey<Miraculous> EXAMPLE = create("example");
 
     private static ResourceKey<Miraculous> create(String name) {
-        return ResourceKey.create(MineraculousRegistries.MIRACULOUS, ExampleAddon.modLoc(name));
+        return ResourceKey.create(MineraculousRegistries.MIRACULOUS, MiracleMondeKwamiCreate.modLoc(name));
     }
 
     /**
