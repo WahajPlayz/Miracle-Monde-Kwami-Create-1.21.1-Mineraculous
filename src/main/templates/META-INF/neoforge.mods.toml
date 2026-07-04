@@ -1,0 +1,94 @@
+# ==============================================================================
+# NeoForge Mod Metadata (neoforge.mods.toml)
+# This file is processed by Gradle during build, replacing properties (e.g. version, mod_id) with
+# values defined in gradle.properties and build.gradle.
+# ==============================================================================
+
+# The name of the mod loader type to load - for regular FML @Mod mods it should be javafml
+modLoader="javafml"
+# A version range to match for said mod loader - for Minecraft 1.21+, FML version is 4+
+loaderVersion="[${major_fml_version},)"
+# The license for your mod. This is mandatory metadata and allows for easier comprehension of your distributive rights.
+license="${license}"
+
+# A list of mods hosted within this jar file.
+[[mods]]
+# The modid of the mod. Must match the @Mod annotation in your main Java class.
+modId="${mod_id}"
+# The version number of the mod.
+version="${version}"
+# The human-readable display name of the mod.
+displayName="${mod_name}"
+# Optional update JSON URL for checking new versions.
+updateJSONURL = "https://api.modrinth.com/updates/${mod_id}/forge_updates.json?neoforge=include"
+# A file name (in the root of your resources directory) for the mod logo.
+logoFile="${icon}"
+# The author(s) of this mod.
+authors="${mod_author}"
+# A description of the mod. Multi-line string.
+description='''
+${description}
+'''
+
+# A list of mixin configuration files for this mod.
+[[mixins]]
+config = "${mod_id}.mixins.json"
+
+# Publication metadata for platforms like Modrinth / CurseForge
+[mc-publish]
+loaders = ['neoforge']
+
+# ==============================================================================
+# Dependencies
+# Specify required and optional mods that this addon interacts with.
+# ==============================================================================
+
+# NeoForge loader dependency
+[[dependencies.${mod_id}]]
+modId="neoforge"
+type="required"
+versionRange="[${neoforge_version},)"
+ordering="NONE"
+side="BOTH"
+
+# Minecraft dependency
+[[dependencies.${mod_id}]]
+modId="minecraft"
+type="required"
+versionRange="[${minecraft_version},${next_minecraft_version})"
+ordering="NONE"
+side="BOTH"
+
+# TommyLib required core dependency
+[[dependencies.${mod_id}]]
+modId="tommylib"
+type="required"
+versionRange="[${tommylib_version},)"
+ordering="NONE"
+side="BOTH"
+
+# Mineraculous required dependency
+# Notice: ordering="AFTER" ensures your addon initializes AFTER Mineraculous has loaded its core features.
+[[dependencies.${mod_id}]]
+modId="mineraculous"
+type="required"
+versionRange="[${mineraculous_version},)"
+ordering="AFTER"
+side="BOTH"
+
+# --- Optional / Recommended Dependency Examples ---
+# Uncomment below if your addon uses Curios slots (recommended for custom Miraculouses):
+# [[dependencies.${mod_id}]]
+# modId="curios"
+# type="required"
+# versionRange="[${curios_version},)"
+# ordering="AFTER"
+# side="BOTH"
+
+# Uncomment below if your addon uses SmartBrainLib:
+# [[dependencies.${mod_id}]]
+# modId="smartbrainlib"
+# type="required"
+# versionRange="[0,)"
+# ordering="AFTER"
+# side="BOTH"

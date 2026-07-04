@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "has_example_jewel": {
+      "conditions": {
+        "items": [
+          {
+            "items": "exampleaddon:example_jewel"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "description": {
+      "translate": "advancement.exampleaddon.main.root.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "exampleaddon:example_jewel"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancement.exampleaddon.main.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_example_jewel"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

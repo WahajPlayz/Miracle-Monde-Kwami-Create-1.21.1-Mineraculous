@@ -1,0 +1,13 @@
+{
+  "contexts": {
+    "mineraculous:kamikotization_suit": {
+      "mineraculous:geckolib_model": "exampleaddon:geo/item/armor/kamikotization/example.geo.json",
+      "mineraculous:texture": "exampleaddon:textures/entity/equipment/humanoid/kamikotization/example.png"
+    }
+  },
+  "metadata": {
+    "mineraculous:valid_kamikotizations": [
+      "exampleaddon:example"
+    ]
+  }
+}

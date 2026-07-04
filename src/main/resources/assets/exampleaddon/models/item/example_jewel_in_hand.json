@@ -1,0 +1,56 @@
+{
+  "display": {
+    "firstperson_lefthand": {
+      "translation": [
+        0,
+        -24,
+        0
+      ]
+    },
+    "firstperson_righthand": {
+      "translation": [
+        0,
+        -24,
+        0
+      ]
+    },
+    "head": {
+      "translation": [
+        0,
+        -21,
+        0
+      ]
+    },
+    "mineraculous:curios_body": {
+      "rotation": [
+        180,
+        0,
+        45
+      ],
+      "scale": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "translation": [
+        8.67,
+        12.5,
+        2.3
+      ]
+    },
+    "thirdperson_lefthand": {
+      "translation": [
+        0,
+        -18,
+        2
+      ]
+    },
+    "thirdperson_righthand": {
+      "translation": [
+        0,
+        -18,
+        2
+      ]
+    }
+  }
+}

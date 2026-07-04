@@ -1,0 +1,159 @@
+{
+  "acceptable_slot": "brooch",
+  "active_ability": {
+    "ability": {
+      "branches": [
+        {
+          "actions": [
+            {
+              "type": "mineraculous:convert_and_tame",
+              "apply_sound": "apply_sound",
+              "conversion": "mineraculous:kamiko"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "mineraculous:target",
+              "invalid_ability_targets": {
+                "type": "mineraculous:entity",
+                "entity": {
+                  "type": "minecraft:player"
+                }
+              },
+              "valid_ability_targets": {
+                "type": "mineraculous:entity"
+              }
+            }
+          ]
+        },
+        {
+          "actions": [
+            {
+              "type": "mineraculous:right_hand_particles",
+              "particle": "particle"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "type": "mineraculous:source",
+          "valid_ability_sources": {
+            "has_stored_entities": false
+          }
+        }
+      ],
+      "customization_settings": {
+        "apply_sound": {
+          "type": "mineraculous:sound",
+          "default_value": "mineraculous:kamikotization_activate",
+          "optional": true
+        },
+        "particle": {
+          "type": "mineraculous:particle",
+          "default_value": {
+            "type": "mineraculous:black_orb"
+          }
+        }
+      }
+    },
+    "id": "kamikotization"
+  },
+  "color": "#00FFCC",
+  "customization_settings": {
+    "mineraculous:transform_sound": "mineraculous:butterfly_transform",
+    "mineraculous:transformation_frames": 7
+  },
+  "passive_abilities": [
+    {
+      "ability": {
+        "branches": [
+          {
+            "actions": [
+              {
+                "type": "mineraculous:spectate_entity",
+                "can_depower": true,
+                "face_mask_texture": "face_mask_texture",
+                "override_owner": true,
+                "shader": "shader",
+                "valid_entities": {
+                  "type": "mineraculous:kamiko"
+                }
+              }
+            ]
+          }
+        ],
+        "conditions": [
+          {
+            "type": "mineraculous:source",
+            "valid_ability_sources": {
+              "power_active": true
+            }
+          }
+        ],
+        "customization_settings": {
+          "face_mask_texture": {
+            "type": "mineraculous:resource_location",
+            "default_value": "mineraculous:textures/entity/player/face_mask/kamiko.png"
+          },
+          "shader": {
+            "type": "mineraculous:resource_location",
+            "default_value": "mineraculous:shaders/post/kamiko.json"
+          }
+        }
+      },
+      "id": "kamiko_control"
+    },
+    {
+      "ability": {
+        "branches": [
+          {
+            "actions": [
+              {
+                "type": "mineraculous:spectate_entity",
+                "can_depower": true,
+                "can_hurt": true,
+                "can_private_chat": true,
+                "face_mask_texture": "face_mask_texture",
+                "shader": "shader",
+                "start_sound": "start_sound",
+                "valid_entities": {
+                  "type_specific": {
+                    "type": "mineraculous:kamikotization"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "conditions": [
+          {
+            "type": "mineraculous:source",
+            "valid_ability_sources": {
+              "power_active": true
+            }
+          }
+        ],
+        "customization_settings": {
+          "face_mask_texture": {
+            "type": "mineraculous:resource_location",
+            "default_value": "mineraculous:textures/entity/player/face_mask/kamiko.png"
+          },
+          "shader": {
+            "type": "mineraculous:resource_location",
+            "default_value": "mineraculous:shaders/post/kamiko.json"
+          },
+          "start_sound": {
+            "type": "mineraculous:sound",
+            "default_value": "mineraculous:kamikotized_communication_activate",
+            "optional": true
+          }
+        }
+      },
+      "id": "kamikotized_communication"
+    }
+  ],
+  "tool": {
+    "id": "exampleaddon:example_jewel"
+  }
+}

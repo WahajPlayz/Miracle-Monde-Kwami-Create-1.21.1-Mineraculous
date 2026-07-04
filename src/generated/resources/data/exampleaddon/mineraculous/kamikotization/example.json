@@ -1,0 +1,18 @@
+{
+  "conditions": [
+    {
+      "type": "mineraculous:item",
+      "message": {
+        "translate": "kamikotization_condition.mineraculous.item.requires_example_jewel"
+      },
+      "predicate": {
+        "count": 1,
+        "items": "exampleaddon:example_jewel"
+      }
+    }
+  ],
+  "power_source": {
+    "count": 1,
+    "id": "exampleaddon:example_jewel"
+  }
+}

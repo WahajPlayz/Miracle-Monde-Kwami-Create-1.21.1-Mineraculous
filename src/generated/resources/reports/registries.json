@@ -1,0 +1,14 @@
+{
+  "minecraft:creative_mode_tab": [
+    "exampleaddon:exampleaddon"
+  ],
+  "minecraft:item": [
+    "exampleaddon:example_jewel"
+  ],
+  "mineraculous:kamikotization": [
+    "exampleaddon:example"
+  ],
+  "mineraculous:miraculous": [
+    "exampleaddon:example"
+  ]
+}

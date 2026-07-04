@@ -1,0 +1,40 @@
+{
+  "contexts": {
+    "mineraculous:hidden_miraculous": {
+      "mineraculous:countdown_textures": {
+        "base": "exampleaddon:textures/item/miraculous/example/powered.png"
+      },
+      "mineraculous:geckolib_model": "exampleaddon:geo/item/miraculous/example.geo.json",
+      "mineraculous:item_transforms": "exampleaddon:models/item/miraculous/example.json",
+      "mineraculous:texture": "exampleaddon:textures/item/miraculous/example/hidden.png"
+    },
+    "mineraculous:miraculous_suit": {
+      "mineraculous:geckolib_model": "exampleaddon:geo/item/armor/miraculous/example.geo.json",
+      "mineraculous:texture": "exampleaddon:textures/entity/equipment/humanoid/miraculous/example.png",
+      "mineraculous:transformation_textures": {
+        "base": "exampleaddon:textures/entity/equipment/humanoid/miraculous/example.png",
+        "texture_count": 7
+      }
+    },
+    "mineraculous:miraculous_tool": {
+      "mineraculous:flat_texture": "exampleaddon:textures/item/example_jewel.png",
+      "mineraculous:geckolib_animations": "exampleaddon:animations/item/example_jewel.animation.json",
+      "mineraculous:geckolib_model": "exampleaddon:geo/item/example_jewel.geo.json",
+      "mineraculous:item_transforms": "exampleaddon:models/item/example_jewel_in_hand.json",
+      "mineraculous:texture": "exampleaddon:textures/item/geo/example_jewel.png"
+    },
+    "mineraculous:powered_miraculous": {
+      "mineraculous:countdown_textures": {
+        "base": "exampleaddon:textures/item/miraculous/example/powered.png"
+      },
+      "mineraculous:geckolib_model": "exampleaddon:geo/item/miraculous/example.geo.json",
+      "mineraculous:item_transforms": "exampleaddon:models/item/miraculous/example.json",
+      "mineraculous:texture": "exampleaddon:textures/item/miraculous/example/powered.png"
+    }
+  },
+  "metadata": {
+    "mineraculous:valid_miraculouses": [
+      "exampleaddon:example"
+    ]
+  }
+}

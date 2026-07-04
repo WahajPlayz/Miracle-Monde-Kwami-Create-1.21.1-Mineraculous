@@ -1,0 +1,9 @@
+{
+  "advancement.exampleaddon.main.root.desc": "The beginning of your miraculous adventure",
+  "advancement.exampleaddon.main.root.title": "Example Addon",
+  "item.exampleaddon.example_jewel": "Example Jewel",
+  "item_group.exampleaddon.exampleaddon": "Example Addon",
+  "kamikotization.exampleaddon.example": "Example",
+  "kamikotization_condition.mineraculous.item.requires_example_jewel": "Requires an Example Jewel",
+  "miraculous.exampleaddon.example": "Example"
+}
