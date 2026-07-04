@@ -1,0 +1,13 @@
+{
+  "contexts": {
+    "mineraculous:kamikotization_suit": {
+      "mineraculous:geckolib_model": "miracle_monde_kwami_create:geo/item/armor/kamikotization/example.geo.json",
+      "mineraculous:texture": "miracle_monde_kwami_create:textures/entity/equipment/humanoid/kamikotization/example.png"
+    }
+  },
+  "metadata": {
+    "mineraculous:valid_kamikotizations": [
+      "miracle_monde_kwami_create:example"
+    ]
+  }
+}

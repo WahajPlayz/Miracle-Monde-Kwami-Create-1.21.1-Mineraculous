@@ -1,0 +1,9 @@
+{
+  "advancement.miracle_monde_kwami_create.main.root.desc": "The beginning of your miraculous adventure",
+  "advancement.miracle_monde_kwami_create.main.root.title": "Example Addon",
+  "item.miracle_monde_kwami_create.example_jewel": "Example Jewel",
+  "item_group.miracle_monde_kwami_create.miracle_monde_kwami_create": "Example Addon",
+  "kamikotization.miracle_monde_kwami_create.example": "Example",
+  "kamikotization_condition.mineraculous.item.requires_example_jewel": "Requires an Example Jewel",
+  "miraculous.miracle_monde_kwami_create.example": "Example"
+}

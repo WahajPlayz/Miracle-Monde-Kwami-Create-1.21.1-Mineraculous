@@ -1,0 +1,14 @@
+{
+  "minecraft:creative_mode_tab": [
+    "miracle_monde_kwami_create:miracle_monde_kwami_create"
+  ],
+  "minecraft:item": [
+    "miracle_monde_kwami_create:example_jewel"
+  ],
+  "mineraculous:kamikotization": [
+    "miracle_monde_kwami_create:example"
+  ],
+  "mineraculous:miraculous": [
+    "miracle_monde_kwami_create:example"
+  ]
+}

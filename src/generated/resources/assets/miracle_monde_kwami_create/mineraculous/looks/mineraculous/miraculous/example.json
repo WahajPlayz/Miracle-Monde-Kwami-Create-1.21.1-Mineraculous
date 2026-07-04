@@ -1,0 +1,40 @@
+{
+  "contexts": {
+    "mineraculous:hidden_miraculous": {
+      "mineraculous:countdown_textures": {
+        "base": "miracle_monde_kwami_create:textures/item/miraculous/example/powered.png"
+      },
+      "mineraculous:geckolib_model": "miracle_monde_kwami_create:geo/item/miraculous/example.geo.json",
+      "mineraculous:item_transforms": "miracle_monde_kwami_create:models/item/miraculous/example.json",
+      "mineraculous:texture": "miracle_monde_kwami_create:textures/item/miraculous/example/hidden.png"
+    },
+    "mineraculous:miraculous_suit": {
+      "mineraculous:geckolib_model": "miracle_monde_kwami_create:geo/item/armor/miraculous/example.geo.json",
+      "mineraculous:texture": "miracle_monde_kwami_create:textures/entity/equipment/humanoid/miraculous/example.png",
+      "mineraculous:transformation_textures": {
+        "base": "miracle_monde_kwami_create:textures/entity/equipment/humanoid/miraculous/example.png",
+        "texture_count": 7
+      }
+    },
+    "mineraculous:miraculous_tool": {
+      "mineraculous:flat_texture": "miracle_monde_kwami_create:textures/item/example_jewel.png",
+      "mineraculous:geckolib_animations": "miracle_monde_kwami_create:animations/item/example_jewel.animation.json",
+      "mineraculous:geckolib_model": "miracle_monde_kwami_create:geo/item/example_jewel.geo.json",
+      "mineraculous:item_transforms": "miracle_monde_kwami_create:models/item/example_jewel_in_hand.json",
+      "mineraculous:texture": "miracle_monde_kwami_create:textures/item/geo/example_jewel.png"
+    },
+    "mineraculous:powered_miraculous": {
+      "mineraculous:countdown_textures": {
+        "base": "miracle_monde_kwami_create:textures/item/miraculous/example/powered.png"
+      },
+      "mineraculous:geckolib_model": "miracle_monde_kwami_create:geo/item/miraculous/example.geo.json",
+      "mineraculous:item_transforms": "miracle_monde_kwami_create:models/item/miraculous/example.json",
+      "mineraculous:texture": "miracle_monde_kwami_create:textures/item/miraculous/example/powered.png"
+    }
+  },
+  "metadata": {
+    "mineraculous:valid_miraculouses": [
+      "miracle_monde_kwami_create:example"
+    ]
+  }
+}

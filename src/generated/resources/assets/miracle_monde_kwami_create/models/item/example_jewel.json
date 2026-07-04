@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "miracle_monde_kwami_create:item/example_jewel"
+  }
+}
