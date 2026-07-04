@@ -1,13 +1,13 @@
-package net.wahajplayz.exampleaddon.data.advancements.packs;
+package NET.wahajplayz.MiracleMondeKwamiCreate.data.advancements.packs;
 
+import NET.wahajplayz.MiracleMondeKwamiCreate.MiracleMondeKwamiCreate;
+import NET.wahajplayz.MiracleMondeKwamiCreate.world.item.ExampleItems;
 import dev.thomasglasser.tommylib.api.data.advancements.ExtendedAdvancementGenerator;
 import java.util.function.BiConsumer;
 import net.minecraft.advancements.AdvancementHolder;
 import net.minecraft.advancements.critereon.InventoryChangeTrigger;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.resources.ResourceLocation;
-import net.wahajplayz.MiracleMondeKwamiCreate.MiracleMondeKwamiCreate;
-import net.wahajplayz.MiracleMondeKwamiCreate.world.item.ExampleItems;
 
 /// Defines the actual advancement tree and triggers for this addon.
 public class ExampleAdvancements extends ExtendedAdvancementGenerator {

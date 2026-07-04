@@ -1,7 +1,7 @@
-package net.wahajplayz.MiracleMondeKwamiCreate.mixin;
+package NET.wahajplayz.MiracleMondeKwamiCreate.mixin;
 
+import NET.wahajplayz.MiracleMondeKwamiCreate.MiracleMondeKwamiCreate;
 import net.minecraft.server.MinecraftServer;
-import net.wahajplayz.MiracleMondeKwamiCreate.MiracleMondeKwamiCreate;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.spongepowered.asm.mixin.Mixin;
@@ -16,7 +16,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
  * The {@link Mixin} annotation specifies the target class whose bytecode you want to modify.
  */
 @Mixin(MinecraftServer.class)
-public class ExampleMixin {
+public class KwamiCreateMixin {
     private static final Logger LOGGER = LoggerFactory.getLogger(MiracleMondeKwamiCreate.MOD_NAME + " Mixin");
 
     /**
@@ -25,9 +25,9 @@ public class ExampleMixin {
      * @param info Callback metadata provided by the Mixin framework.
      */
     @Inject(at = @At("HEAD"), method = "loadLevel")
-    private void exampleaddon$onLoadLevel(CallbackInfo info) {
+    private void miracle_monde_kwami_create$onLoadLevel(CallbackInfo info) {
         // Notice: Prefixing your mixin method name with your modid (e.g., exampleaddon$...)
         // prevents method signature collisions with other mods injecting into the same class!
-        LOGGER.info("ExampleMixin fired: MinecraftServer is beginning level load!");
+        LOGGER.info("KwamiCreateMixin fired: MinecraftServer is beginning level load!");
     }
 }

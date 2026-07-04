@@ -1,10 +1,10 @@
-package net.wahajplayz.MiracleMondeKwamiCreate.world.item;
+package NET.wahajplayz.MiracleMondeKwamiCreate.world.item;
 
+import NET.wahajplayz.MiracleMondeKwamiCreate.MiracleMondeKwamiCreate;
 import dev.thomasglasser.tommylib.api.registration.DeferredItem;
 import dev.thomasglasser.tommylib.api.registration.DeferredRegister;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
-import net.wahajplayz.MiracleMondeKwamiCreate.MiracleMondeKwamiCreate;
 
 /**
  * Holds all registered {@link Item}s for this addon.

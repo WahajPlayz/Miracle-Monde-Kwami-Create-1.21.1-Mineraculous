@@ -1,10 +1,10 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.wahajplayz.MiracleMondeKwamiCreate.mixin",
+  "package": "NET.wahajplayz.MiracleMondeKwamiCreate.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "ExampleMixin"
+    "KwamiCreateMixin"
   ],
   "client": [
   ],

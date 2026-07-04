@@ -1,10 +1,10 @@
-package net.wahajplayz.MiracleMondeKwamiCreate.data.models;
+package NET.wahajplayz.MiracleMondeKwamiCreate.data.models;
 
+import NET.wahajplayz.MiracleMondeKwamiCreate.MiracleMondeKwamiCreate;
+import NET.wahajplayz.MiracleMondeKwamiCreate.world.item.ExampleItems;
 import dev.thomasglasser.tommylib.api.data.models.ExtendedItemModelProvider;
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
-import net.wahajplayz.MiracleMondeKwamiCreate.MiracleMondeKwamiCreate;
-import net.wahajplayz.MiracleMondeKwamiCreate.world.item.ExampleItems;
 
 /**
  * Generates item model JSON files (in {@code src/generated/resources/models/item/}) for this addon.

@@ -1,5 +1,6 @@
-package net.wahajplayz.MiracleMondeKwamiCreate.world.item;
+package NET.wahajplayz.MiracleMondeKwamiCreate.world.item;
 
+import NET.wahajplayz.MiracleMondeKwamiCreate.MiracleMondeKwamiCreate;
 import dev.thomasglasser.mineraculous.impl.world.item.MineraculousCreativeModeTabs;
 import dev.thomasglasser.tommylib.api.platform.TommyLibServices;
 import dev.thomasglasser.tommylib.api.registration.DeferredHolder;
@@ -12,7 +13,6 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.ItemStackLinkedSet;
-import net.wahajplayz.MiracleMondeKwamiCreate.MiracleMondeKwamiCreate;
 
 /// Holds all registered {@link CreativeModeTab}s for this addon.
 public class ExampleCreativeModeTabs {

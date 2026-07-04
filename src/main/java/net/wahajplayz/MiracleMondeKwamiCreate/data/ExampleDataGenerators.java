@@ -1,16 +1,16 @@
-package net.wahajplayz.MiracleMondeKwamiCreate.data;
+package NET.wahajplayz.MiracleMondeKwamiCreate.data;
 
+import NET.wahajplayz.MiracleMondeKwamiCreate.MiracleMondeKwamiCreate;
+import NET.wahajplayz.MiracleMondeKwamiCreate.data.advancements.ExampleAdvancementProvider;
+import NET.wahajplayz.MiracleMondeKwamiCreate.data.lang.ExampleEnUsLanguageProvider;
+import NET.wahajplayz.MiracleMondeKwamiCreate.data.look.ExampleLookProvider;
+import NET.wahajplayz.MiracleMondeKwamiCreate.data.models.ExampleItemModelProvider;
+import NET.wahajplayz.MiracleMondeKwamiCreate.world.kamikotization.ExampleKamikotizations;
+import NET.wahajplayz.MiracleMondeKwamiCreate.world.miraculous.ExampleMiraculouses;
 import dev.thomasglasser.mineraculous.api.core.registries.MineraculousRegistries;
 import dev.thomasglasser.tommylib.api.data.DataGenerationUtils;
 import net.minecraft.core.RegistrySetBuilder;
 import net.neoforged.neoforge.data.event.GatherDataEvent;
-import net.wahajplayz.MiracleMondeKwamiCreate.MiracleMondeKwamiCreate;
-import net.wahajplayz.MiracleMondeKwamiCreate.data.advancements.ExampleAdvancementProvider;
-import net.wahajplayz.MiracleMondeKwamiCreate.data.lang.ExampleEnUsLanguageProvider;
-import net.wahajplayz.MiracleMondeKwamiCreate.data.look.ExampleLookProvider;
-import net.wahajplayz.MiracleMondeKwamiCreate.data.models.ExampleItemModelProvider;
-import net.wahajplayz.MiracleMondeKwamiCreate.world.kamikotization.ExampleKamikotizations;
-import net.wahajplayz.MiracleMondeKwamiCreate.world.miraculous.ExampleMiraculouses;
 
 /**
  * Handles data generation for this addon when running the 'Data Generation' run config.

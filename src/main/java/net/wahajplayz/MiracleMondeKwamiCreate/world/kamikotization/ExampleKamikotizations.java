@@ -1,5 +1,7 @@
-package net.wahajplayz.MiracleMondeKwamiCreate.world.kamikotization;
+package NET.wahajplayz.MiracleMondeKwamiCreate.world.kamikotization;
 
+import NET.wahajplayz.MiracleMondeKwamiCreate.MiracleMondeKwamiCreate;
+import NET.wahajplayz.MiracleMondeKwamiCreate.world.item.ExampleItems;
 import com.google.common.collect.ImmutableList;
 import com.mojang.datafixers.util.Either;
 import dev.thomasglasser.mineraculous.api.core.customization.setting.CustomizationSettings;
@@ -9,8 +11,6 @@ import dev.thomasglasser.mineraculous.api.world.kamikotization.condition.ItemCon
 import net.minecraft.advancements.critereon.MinMaxBounds;
 import net.minecraft.data.worldgen.BootstrapContext;
 import net.minecraft.resources.ResourceKey;
-import net.wahajplayz.MiracleMondeKwamiCreate.MiracleMondeKwamiCreate;
-import net.wahajplayz.MiracleMondeKwamiCreate.world.item.ExampleItems;
 
 /**
  * Demonstrates how to define and register a custom {@link Kamikotization} via data generation.

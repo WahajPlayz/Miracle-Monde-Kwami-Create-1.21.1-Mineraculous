@@ -1,14 +1,14 @@
-package net.wahajplayz.MiracleMondeKwamiCreate.data.look;
+package NET.wahajplayz.MiracleMondeKwamiCreate.data.look;
 
+import NET.wahajplayz.MiracleMondeKwamiCreate.MiracleMondeKwamiCreate;
+import NET.wahajplayz.MiracleMondeKwamiCreate.world.item.ExampleItems;
+import NET.wahajplayz.MiracleMondeKwamiCreate.world.kamikotization.ExampleKamikotizations;
+import NET.wahajplayz.MiracleMondeKwamiCreate.world.miraculous.ExampleMiraculouses;
 import dev.thomasglasser.mineraculous.api.core.registries.MineraculousRegistries;
 import dev.thomasglasser.mineraculous.impl.data.looks.MineraculousLookProvider;
 import java.util.concurrent.CompletableFuture;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
-import net.wahajplayz.MiracleMondeKwamiCreate.MiracleMondeKwamiCreate;
-import net.wahajplayz.MiracleMondeKwamiCreate.world.item.ExampleItems;
-import net.wahajplayz.MiracleMondeKwamiCreate.world.kamikotization.ExampleKamikotizations;
-import net.wahajplayz.MiracleMondeKwamiCreate.world.miraculous.ExampleMiraculouses;
 
 /**
  * Data generation provider for Miraculous and Kamikotization visual looks.

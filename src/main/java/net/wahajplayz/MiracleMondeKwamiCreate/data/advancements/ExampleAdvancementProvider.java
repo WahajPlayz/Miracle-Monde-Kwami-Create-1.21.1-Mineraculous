@@ -1,5 +1,6 @@
-package net.wahajplayz.MiracleMondeKwamiCreate.data.advancements;
+package NET.wahajplayz.MiracleMondeKwamiCreate.data.advancements;
 
+import NET.wahajplayz.MiracleMondeKwamiCreate.data.advancements.packs.ExampleAdvancements;
 import com.google.common.collect.ImmutableSet;
 import dev.thomasglasser.tommylib.api.data.advancements.ExtendedAdvancementProvider;
 import java.util.concurrent.CompletableFuture;
@@ -7,7 +8,6 @@ import java.util.function.BiConsumer;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
-import net.wahajplayz.exampleaddon.data.advancements.packs.ExampleAdvancements;
 import org.jetbrains.annotations.Nullable;
 
 /// Generates custom advancements for this addon.

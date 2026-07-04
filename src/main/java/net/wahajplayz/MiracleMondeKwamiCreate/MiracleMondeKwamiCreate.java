@@ -1,5 +1,8 @@
-package net.wahajplayz.MiracleMondeKwamiCreate;
+package NET.wahajplayz.MiracleMondeKwamiCreate;
 
+import NET.wahajplayz.MiracleMondeKwamiCreate.data.ExampleDataGenerators;
+import NET.wahajplayz.MiracleMondeKwamiCreate.world.item.ExampleCreativeModeTabs;
+import NET.wahajplayz.MiracleMondeKwamiCreate.world.item.ExampleItems;
 import dev.thomasglasser.tommylib.api.platform.TommyLibServices;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -10,9 +13,6 @@ import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
-import net.wahajplayz.MiracleMondeKwamiCreate.data.ExampleDataGenerators;
-import net.wahajplayz.MiracleMondeKwamiCreate.world.item.ExampleCreativeModeTabs;
-import net.wahajplayz.MiracleMondeKwamiCreate.world.item.ExampleItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
