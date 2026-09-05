@@ -92,3 +92,26 @@ side="BOTH"
 # versionRange="[0,)"
 # ordering="AFTER"
 # side="BOTH"
+
+[[mods]]
+modId="allianceering"
+version="${version}"
+displayName="Alliance Ring"
+authors="${mod_author}"
+description='''
+Alliance Ring communication, voice chat, and customization system.
+'''
+
+[[dependencies.allianceering]]
+modId="neoforge"
+type="required"
+versionRange="[${neoforge_version},)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.allianceering]]
+modId="minecraft"
+type="required"
+versionRange="[${minecraft_version},${next_minecraft_version})"
+ordering="NONE"
+side="BOTH"

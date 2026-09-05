@@ -196,6 +196,9 @@ neoForge {
 		"${mod_id}" {
 			sourceSet sourceSets.main
 		}
+		"allianceering" {
+			sourceSet sourceSets.main
+		}
 	}
 }
 
@@ -227,6 +230,9 @@ dependencies {
 	// Jade is included as Mineraculous language/data providers reference Jade tooltip APIs:
 	implementation "maven.modrinth:jade:${jade_version}+neoforge"
 	// localRuntime "mezz.jei:jei-${minecraft_version}-neoforge:${jei_version}"
+
+	// Simple Voice Chat API for Alliance Ring audio calls
+	compileOnly "de.maxhenkel.voicechat:voicechat-api:2.5.36"
 }
 
 // ==============================================================================
